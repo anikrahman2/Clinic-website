@@ -1,0 +1,7 @@
+{
+  "name": "Jharna Clinic & Hospital — Jashore",
+  "description": "Official healthcare portal and hospital management system for Jharna Clinic & Hospital in Jashore, Bangladesh. Comprehensive healthcare services, doctor consultations, appointment booking, and intelligent medical inquiry assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

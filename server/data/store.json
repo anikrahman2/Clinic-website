@@ -1,0 +1,502 @@
+{
+  "admins": [
+    {
+      "_id": "doc_1790691415651_1xr81h",
+      "name": "Hospital Administrator",
+      "email": "admin@example.com",
+      "password": "$2b$10$1qzcxFSvYqDzKZBEuVqaQe.MLSocNFqqVPsKyp5Bnm4yt2QPKbaBS",
+      "role": "superadmin",
+      "mustChangePassword": true,
+      "lastLogin": "2026-09-29T14:16:55.649Z",
+      "createdAt": "2026-09-29T14:16:55.651Z",
+      "updatedAt": "2026-09-29T14:16:55.651Z"
+    }
+  ],
+  "doctors": [
+    {
+      "_id": "doc_1790691415651_0_j97z",
+      "name": "[Sample Doctor] Dr. Farzana Yasmin",
+      "photo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80",
+      "qualifications": "MBBS, FCPS (Obs & Gynae), MS",
+      "specialty": "Gynecology & Obstetrics",
+      "designation": "Senior Consultant & Gynecologist (Sample Profile)",
+      "experience": "14+ Years Experience",
+      "bio": "Experienced in maternal health, high-risk pregnancy management, laparoscopic gynecological procedures, and prenatal counseling. Dedicated to compassionate family healthcare in Jashore.",
+      "consultationDays": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "consultationTime": "04:00 PM - 08:00 PM",
+      "phone": "+880 1711-000001",
+      "appointmentAvailable": true,
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.651Z",
+      "updatedAt": "2026-09-29T14:16:55.651Z"
+    },
+    {
+      "_id": "doc_1790691415651_1_rc74",
+      "name": "[Sample Doctor] Dr. M. A. Karim",
+      "photo": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80",
+      "qualifications": "MBBS, FCPS (Medicine), MD (Cardiology)",
+      "specialty": "Cardiology & Internal Medicine",
+      "designation": "Associate Professor & Cardiologist (Sample Profile)",
+      "experience": "16+ Years Experience",
+      "bio": "Specialist in clinical cardiology, hypertension, diabetes management, ischemic heart disease, and adult internal medicine with extensive hospital practice in Khulna Division.",
+      "consultationDays": [
+        "Saturday",
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "consultationTime": "05:00 PM - 09:00 PM",
+      "phone": "+880 1711-000002",
+      "appointmentAvailable": true,
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.651Z",
+      "updatedAt": "2026-09-29T14:16:55.651Z"
+    },
+    {
+      "_id": "doc_1790691415651_2_jw5p",
+      "name": "[Sample Doctor] Dr. Shafiqul Islam",
+      "photo": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=600&q=80",
+      "qualifications": "MBBS, MS (General & Laparoscopic Surgery)",
+      "specialty": "General & Laparoscopic Surgery",
+      "designation": "Chief Consultant Surgeon (Sample Profile)",
+      "experience": "18+ Years Experience",
+      "bio": "Specialist in minimally invasive laparoscopic surgery, abdominal trauma, hernia repair, gall bladder surgery, and elective surgical interventions with patient safety excellence.",
+      "consultationDays": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "consultationTime": "03:00 PM - 07:00 PM",
+      "phone": "+880 1711-000003",
+      "appointmentAvailable": true,
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.651Z",
+      "updatedAt": "2026-09-29T14:16:55.651Z"
+    },
+    {
+      "_id": "doc_1790691415651_3_nl43",
+      "name": "[Sample Doctor] Dr. Nusrat Jahan",
+      "photo": "https://images.unsplash.com/photo-1594824813589-3236df76550a?auto=format&fit=crop&w=600&q=80",
+      "qualifications": "MBBS, DCH, MD (Pediatrics)",
+      "specialty": "Pediatrics & Child Health",
+      "designation": "Consultant Pediatrician (Sample Profile)",
+      "experience": "10+ Years Experience",
+      "bio": "Specialized in neonatal intensive care, pediatric infectious diseases, child immunization, developmental growth monitoring, and pediatric nutrition.",
+      "consultationDays": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "consultationTime": "09:00 AM - 01:00 PM",
+      "phone": "+880 1711-000004",
+      "appointmentAvailable": true,
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.651Z",
+      "updatedAt": "2026-09-29T14:16:55.651Z"
+    },
+    {
+      "_id": "doc_1790691415651_4_74w4",
+      "name": "[Sample Doctor] Dr. Tanvir Ahmed",
+      "photo": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=600&q=80",
+      "qualifications": "MBBS, MS (Orthopedic Surgery)",
+      "specialty": "Orthopedics & Trauma",
+      "designation": "Consultant Orthopedic Surgeon (Sample Profile)",
+      "experience": "12+ Years Experience",
+      "bio": "Expertise in bone fracture management, joint pain, arthroscopy, spine care, and emergency trauma rehabilitation serving patients from across Jashore and surrounding districts.",
+      "consultationDays": [
+        "Sunday",
+        "Tuesday",
+        "Wednesday",
+        "Friday"
+      ],
+      "consultationTime": "04:30 PM - 08:30 PM",
+      "phone": "+880 1711-000005",
+      "appointmentAvailable": true,
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.651Z",
+      "updatedAt": "2026-09-29T14:16:55.651Z"
+    }
+  ],
+  "services": [
+    {
+      "_id": "doc_1790691415652_0_0a85",
+      "name": "Gynecology & Maternity Care",
+      "slug": "gynecology-maternity",
+      "description": "Comprehensive maternal care, normal and cesarean delivery, antenatal checkups, neonatal resuscitation, and gynecological surgeries conducted in modern sterile theaters.",
+      "icon": "Baby",
+      "image": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80",
+      "department": "Gynecology & Obstetrics",
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_1_nhfs",
+      "name": "General & Laparoscopic Surgery",
+      "slug": "general-laparoscopic-surgery",
+      "description": "State-of-the-art modular operation theaters equipped for minimally invasive laparoscopic procedures, appendectomy, cholecystectomy, hernia repair, and emergency trauma surgery.",
+      "icon": "Scissors",
+      "image": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80",
+      "department": "Surgery",
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_2_psxo",
+      "name": "Cardiology & Internal Medicine",
+      "slug": "cardiology-medicine",
+      "description": "Modern cardiovascular diagnosis, ECG, 2D Echocardiography, hypertension management, diabetes control, and preventive adult healthcare clinics.",
+      "icon": "HeartPulse",
+      "image": "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&w=800&q=80",
+      "department": "Medicine & Cardiology",
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_3_i2y5",
+      "name": "Pediatrics & Neonatal Care",
+      "slug": "pediatrics-child-health",
+      "description": "Dedicated pediatric OPD and inpatient ward with phototherapy, radiant warmers, pediatric emergency resuscitation, and routine childhood vaccination programs.",
+      "icon": "ShieldAlert",
+      "image": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=80",
+      "department": "Pediatrics",
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_4_igso",
+      "name": "Diagnostic Pathology & Lab",
+      "slug": "diagnostic-pathology",
+      "description": "Full-fledged automated biochemistry, hematology, microbiology, immunology, and hormone analysis with fast turnaround times and verified test reports.",
+      "icon": "Microscope",
+      "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80",
+      "department": "Diagnostics",
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_5_lp0q",
+      "name": "Digital Radiology & Imaging",
+      "slug": "radiology-imaging",
+      "description": "High-resolution digital X-Ray, 4D Color Doppler Ultrasonography, guided biopsies, and diagnostic imaging for quick clinical assessment.",
+      "icon": "Scan",
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80",
+      "department": "Radiology",
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_6_7051",
+      "name": "24/7 Emergency & Trauma",
+      "slug": "emergency-trauma",
+      "description": "Around-the-clock emergency medical officers, trauma triage, minor OT, acute oxygen therapy, critical observation beds, and emergency ambulance dispatch.",
+      "icon": "Ambulance",
+      "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=800&q=80",
+      "department": "Emergency",
+      "active": true,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    }
+  ],
+  "appointments": [
+    {
+      "_id": "doc_1790691415653_0_nsjg",
+      "appointmentId": "JCH-2026-000101",
+      "patientName": "Kazi Mohammad Hasan",
+      "phone": "+880 1712-345678",
+      "email": "hasan.jashore@example.com",
+      "age": 48,
+      "gender": "Male",
+      "doctor": "[Sample Doctor] Dr. M. A. Karim",
+      "department": "Medicine & Cardiology",
+      "appointmentDate": "2026-10-02",
+      "appointmentTime": "05:30 PM",
+      "reason": "Routine hypertension follow-up and chest tightness evaluation",
+      "message": "Previous prescriptions from Khulna medical available.",
+      "status": "Confirmed",
+      "notes": "Advised fasting lipid profile before visit.",
+      "createdAt": "2026-09-29T14:16:55.653Z",
+      "updatedAt": "2026-09-29T14:16:55.653Z"
+    },
+    {
+      "_id": "doc_1790691415653_1_vljx",
+      "appointmentId": "JCH-2026-000102",
+      "patientName": "Taslima Begum",
+      "phone": "+880 1819-876543",
+      "email": "taslima.begum@example.com",
+      "age": 29,
+      "gender": "Female",
+      "doctor": "[Sample Doctor] Dr. Farzana Yasmin",
+      "department": "Gynecology & Obstetrics",
+      "appointmentDate": "2026-10-03",
+      "appointmentTime": "04:00 PM",
+      "reason": "Second trimester routine antenatal checkup and ultrasound",
+      "message": "First time visit to Jharna Clinic.",
+      "status": "Pending",
+      "notes": "",
+      "createdAt": "2026-09-29T14:16:55.653Z",
+      "updatedAt": "2026-09-29T14:16:55.653Z"
+    },
+    {
+      "_id": "doc_1790691415653_2_06or",
+      "appointmentId": "JCH-2026-000103",
+      "patientName": "Master Aayan Hossain",
+      "phone": "+880 1911-223344",
+      "email": "hossain.family@example.com",
+      "age": 4,
+      "gender": "Male",
+      "doctor": "[Sample Doctor] Dr. Nusrat Jahan",
+      "department": "Pediatrics",
+      "appointmentDate": "2026-10-01",
+      "appointmentTime": "10:30 AM",
+      "reason": "Persistent seasonal cough and low-grade fever",
+      "message": "Immunization card up to date.",
+      "status": "Completed",
+      "notes": "Prescribed pediatric syrup and nebulization advised.",
+      "createdAt": "2026-09-29T14:16:55.653Z",
+      "updatedAt": "2026-09-29T14:16:55.653Z"
+    }
+  ],
+  "facilities": [
+    {
+      "_id": "doc_1790691415652_0_n1x2",
+      "title": "Modern Modular Operation Theatres",
+      "description": "Ultra-clean laminar airflow OT setups with positive pressure, modern anesthesia workstations, and multi-parameter surgical monitoring.",
+      "image": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80",
+      "category": "Surgery",
+      "active": true,
+      "order": 1,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_1_w96j",
+      "title": "24/7 Emergency & Triage Unit",
+      "description": "Dedicated emergency department ready 24 hours a day with trained medical officers, oxygen supply, and cardiac resuscitation monitors.",
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80",
+      "category": "Emergency",
+      "active": true,
+      "order": 2,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_2_n38c",
+      "title": "Automated Pathology Laboratory",
+      "description": "Complete computerized laboratory testing with automated analyzers ensuring high clinical accuracy and quick report delivery.",
+      "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80",
+      "category": "Diagnostic",
+      "active": true,
+      "order": 3,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_3_k5nz",
+      "title": "Digital X-Ray & 4D Ultrasonography",
+      "description": "State-of-the-art diagnostic imaging suites for maternal scans, abdominal evaluation, and orthopedic diagnostics.",
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80",
+      "category": "Diagnostic",
+      "active": true,
+      "order": 4,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_4_pmps",
+      "title": "Comfortable Patient Cabins & Wards",
+      "description": "Air-conditioned private cabins, semi-private rooms, and well-ventilated general wards with round-the-clock nursing supervision.",
+      "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80",
+      "category": "Inpatient",
+      "active": true,
+      "order": 5,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    }
+  ],
+  "gallery": [
+    {
+      "_id": "doc_1790691415652_0_chia",
+      "title": "Hospital Entrance & Reception",
+      "description": "Spacious patient registration and inquiry counter with guided assistance.",
+      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+      "category": "Hospital Overview",
+      "active": true,
+      "order": 1,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_1_rvax",
+      "title": "Surgical Operation Suite",
+      "description": "Sterile surgical suite with advanced laparoscopic tower and anesthetic equipment.",
+      "image": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80",
+      "category": "Operation Theater",
+      "active": true,
+      "order": 2,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_2_04bz",
+      "title": "Diagnostic Radiology Room",
+      "description": "Digital X-Ray and imaging unit operated by certified radiographers.",
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80",
+      "category": "Diagnostics",
+      "active": true,
+      "order": 3,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_3_odij",
+      "title": "Pathology & Blood Testing Lab",
+      "description": "Biochemistry and hematology diagnostic station.",
+      "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80",
+      "category": "Diagnostics",
+      "active": true,
+      "order": 4,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_4_awue",
+      "title": "Maternity & Inpatient Care Ward",
+      "description": "Clean and sanitized post-operative and inpatient recovery suites.",
+      "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80",
+      "category": "Inpatient Rooms",
+      "active": true,
+      "order": 5,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    }
+  ],
+  "settings": [
+    {
+      "_id": "doc_1790691415651_p25e8w",
+      "hospitalName": "Jharna Clinic & Hospital",
+      "tagline": "Compassionate Healthcare. Trusted by Your Community.",
+      "address": "Jashore, Khulna Division, Bangladesh",
+      "phone": "+880 1711-000000",
+      "emergencyPhone": "[Emergency Number]",
+      "email": "contact@jharnaclinic.com",
+      "googleMapsUrl": "https://maps.app.goo.gl/k6xdYuB2rmTVfh7c8?g_st=ac",
+      "openingHours": "24/7 Emergency & Inpatient Care | OPD: 08:00 AM - 10:00 PM",
+      "notice": "Welcome to Jharna Clinic & Hospital. For emergency care, contact our 24/7 helpline.",
+      "socialMedia": {
+        "facebook": "https://facebook.com",
+        "youtube": "https://youtube.com",
+        "whatsapp": "+8801711000000"
+      },
+      "website": {
+        "logo": "",
+        "heroImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1600&q=80",
+        "metaTitle": "Jharna Clinic & Hospital — Jashore, Bangladesh",
+        "metaDescription": "Quality medical care, modern diagnostics, and dedicated patient-focused healthcare in Jashore."
+      },
+      "createdAt": "2026-09-29T14:16:55.651Z",
+      "updatedAt": "2026-09-29T14:16:55.651Z"
+    }
+  ],
+  "faqs": [
+    {
+      "_id": "doc_1790691415652_0_8j5c",
+      "question": "Where is Jharna Clinic & Hospital located in Jashore?",
+      "answer": "Jharna Clinic & Hospital is located in Jashore, Khulna Division, Bangladesh. You can view our exact Google Maps location and get turn-by-turn directions using the map section on our website or the Google Maps link provided.",
+      "category": "General",
+      "active": true,
+      "order": 1,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_1_96h7",
+      "question": "How do I book a doctor appointment?",
+      "answer": "You can book an appointment directly through our online appointment form on this website, through our AI Care Assistant chat, or by calling our hospital reception desk. After submission, you will receive a unique tracking ID (e.g., JCH-2026-000123).",
+      "category": "Appointments",
+      "active": true,
+      "order": 2,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415652_2_eho4",
+      "question": "Is emergency service available 24 hours a day?",
+      "answer": "Yes, Jharna Clinic & Hospital operates a 24/7 Emergency Unit staffed with on-duty medical officers, nursing staff, emergency observation beds, and diagnostic support round the clock.",
+      "category": "Emergency",
+      "active": true,
+      "order": 3,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415653_3_jhtf",
+      "question": "What diagnostic and laboratory tests are available?",
+      "answer": "Our diagnostic wing provides computerized pathology (blood, urine, hormone, biochemistry), digital X-Ray, 4D Color Doppler ultrasonography, and ECG with fast verified reports.",
+      "category": "Diagnostics",
+      "active": true,
+      "order": 4,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415653_4_tn1g",
+      "question": "What are the patient visiting hours for inpatient wards?",
+      "answer": "General visiting hours are daily from 11:00 AM to 01:00 PM in the morning, and from 05:00 PM to 07:00 PM in the evening. Only one primary attendant is permitted in private cabins outside visiting hours.",
+      "category": "Hospital Policies",
+      "active": true,
+      "order": 5,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    },
+    {
+      "_id": "doc_1790691415653_5_10ih",
+      "question": "Can the online chatbot diagnose my condition or prescribe medication?",
+      "answer": "No. The Jharna Care Assistant provides hospital information, doctor schedules, and appointment guidance. It cannot provide clinical diagnoses or prescribe drugs. For acute symptoms, please consult our doctors in person or visit the emergency department immediately.",
+      "category": "Chatbot & Safety",
+      "active": true,
+      "order": 6,
+      "createdAt": "2026-09-29T14:16:55.652Z",
+      "updatedAt": "2026-09-29T14:16:55.652Z"
+    }
+  ],
+  "inquiries": [
+    {
+      "_id": "doc_1790691415653_0_rryy",
+      "name": "Md. Rafiqul Alam",
+      "phone": "+880 1715-998877",
+      "email": "rafiqul.alam@example.com",
+      "subject": "Inquiry regarding Laparoscopic Gallbladder Surgery cost",
+      "message": "Hello, I want to know about the package cost for laparoscopic cholecystectomy and cabin charges for a 2-day stay.",
+      "status": "New",
+      "createdAt": "2026-09-29T14:16:55.653Z",
+      "updatedAt": "2026-09-29T14:16:55.653Z"
+    },
+    {
+      "_id": "doc_1790691415653_1_hv28",
+      "name": "Sharmin Sultana",
+      "phone": "+880 1822-334455",
+      "email": "sharmin@example.com",
+      "subject": "Ultrasonography test timings on Friday",
+      "message": "Can I do a 4D anomaly scan on Friday morning? Are sonologists available?",
+      "status": "Read",
+      "createdAt": "2026-09-29T14:16:55.653Z",
+      "updatedAt": "2026-09-29T14:16:55.653Z"
+    }
+  ],
+  "chatConversations": []
+}
